@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 app.get('/ig',(req,res)=>{
-    res.send('<h1>no insta haha</h1>')
+    res.send('<h1>no insta </h1>')
 })
 
 app.listen(process.env.port, () => {
